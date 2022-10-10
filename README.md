@@ -25,3 +25,23 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+# Deploy on Gh-itHub
+
+Change the "outputPath" to  "docs",
+Run the following command
+>>npm run build
+
+Change the href to "ecommerce-project-frontend"
+
+In cmd
+>>git init
+git remote add origin https://github.com/....
+git add .
+git commit -m 'initial commit'
+git push origin master
+
+In the public directory add a GitHub Pages
+Source: Deploy from branch
+Select the master/docs
