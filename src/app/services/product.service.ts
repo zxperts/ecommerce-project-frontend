@@ -18,8 +18,8 @@ import { ProductCategory } from '../common/product-category';
 export class ProductService {
 
   // private baseUrl = 'http://localhost:8080/api/products?size=100';
-  //private baseUrl = 'http://localhost:8080/api/products';
-  private baseUrl = 'https://raw.githubusercontent.com/zxperts/ecommerce-project-frontend/master/src/assets/products.json';
+  private baseUrl = 'http://localhost:8080/api/products';
+  // private baseUrl = 'https://raw.githubusercontent.com/zxperts/ecommerce-project-frontend/master/src/assets/products.json';
   private categoryUrl = 'http://localhost:8080/api/product-category';
 
   constructor(private httpClient: HttpClient) { }
